@@ -5,15 +5,12 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/J-Lindvig/Fuelprices_DK)
 [![Buy me a coffee](https://img.shields.io/static/v1.svg?label=Buy%20me%20a%20coffee&message=🥨&color=black&logo=buy%20me%20a%20coffee&logoColor=white&labelColor=6f4e37)](https://www.buymeacoffee.com/apptoo)
 
-# Fuelprices DK
+# Fuelprices NEW DK
 ## Introduction
-With Fuelprices_DK it is possible to track fuelprices in Denmark.
+With Fuelprices_NEW DK it is possible to track fuelprices in Denmark.
 
 ## Installation
-### HACS
-This integration has been approved to the default HACS repository
-### Custom integration in HACS
-https://hacs.xyz/docs/faq/custom_repositories
+At this ealy stage, it's by adding this repository manual in HACS...
 
 ## Configuration
 In the default configuration it will track the following fueltypes:
@@ -26,13 +23,13 @@ In the default configuration it will track the following fueltypes:
 
 From these fuelcompanies:
 - Circle K
-- F24
+- F24 (Not working yet)
 - Go'On
 - ingo
-- OIL! tank & go
+- OIL! tank & go (Not working yet)
 - OK
 - Q8
-- Shell
+- Shell (Not working yet, and i can so far only find business/list prices)
 
 ## Configuration
 ```yaml
@@ -41,11 +38,12 @@ fuelprices_dk:
   # Bypass the default update interval (60 minutes)
   update_interval: 300
   companies:
-  # possible values are: circlek, f24, goon, ingo, oil, ok, q8 and shell
+  # possible values are: circlek, goon, ingo, ok and q8
     - ok
-    - shell
+    - q8
   fueltypes:
   # Possible values are: oktan 95, oktan 95+, oktan 100, diesel, diesel+ and electric
     - oktan 95
     - diesel
+    - electric
 ```
