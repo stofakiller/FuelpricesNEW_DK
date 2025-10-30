@@ -19,11 +19,11 @@ FUEL_COMPANIES = {
         "name": "Circle K",
         "url": "https://www.circlek.dk/priser",
         "products": {
-            OCTANE_95: {"name": "miles95."},
-            OCTANE_95_PLUS: {"name": "miles+95."},
-            DIESEL: {"name": "miles Diesel."},
-            DIESEL_PLUS: {"name": "miles+ Diesel."},
-            ELECTRIC: {"name": "El Lynlader."},
+            OCTANE_95: {"name": "miles 95"},
+            OCTANE_95_PLUS: {"name": "miles+ 95"},
+            DIESEL: {"name": "miles Diesel"},
+            DIESEL_PLUS: {"name": "miles+ Diesel"},
+            ELECTRIC: {"name": "El-Lynlader"},
         },
     },
     "f24": {
@@ -60,6 +60,7 @@ FUEL_COMPANIES = {
             OCTANE_95: {"name": "95 E10"},
             OCTANE_95_PLUS: {"name": "PREMIUM 98"},
             DIESEL: {"name": "Diesel"},
+            DIESEL_PLUS: {"name": "BIO100 Diesel"},
         },
     },
     "ok": {
@@ -83,12 +84,13 @@ FUEL_COMPANIES = {
     },
     "shell": {
         "name": "Shell",
-        "url": "https://www.shell.dk/customer-service/priser-pa-benzin-og-diesel.html",
+        "url": "https://shellservice.dk/erhverv/braendstofpriser",
         "products": {
-            OCTANE_95: {"name": "Shell FuelSave Blyfri 95"},
-            OCTANE_100: {"name": "Shell V-Power"},
+            OCTANE_95: {"name": "Shell FuelSave 95 oktan"},
+            OCTANE_100: {"name": "Shell V-Power 100 oktan"},
             DIESEL: {"name": "Shell FuelSave Diesel"},
             DIESEL_PLUS: {"name": "Shell V-Power Diesel"},
+            ELECTRIC: {"name": "El/kWh"},
         },
     },
 }
