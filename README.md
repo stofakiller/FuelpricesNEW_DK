@@ -5,6 +5,8 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/J-Lindvig/Fuelprices_DK)
 [![Buy me a coffee](https://img.shields.io/static/v1.svg?label=Buy%20me%20a%20coffee&message=🥨&color=black&logo=buy%20me%20a%20coffee&logoColor=white&labelColor=6f4e37)](https://www.buymeacoffee.com/20205255)
 
+## Forked from https://github.com/J-Lindvig/Fuelprices_DK
+
 # Fuelprices NEW DK
 ## Introduction
 With Fuelprices_NEW DK it is possible to track fuelprices in Denmark.
