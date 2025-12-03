@@ -3,6 +3,8 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/stofakiller/FuelpricesNEW_DK)
 [![Buy me a coffee](https://img.shields.io/static/v1.svg?label=Buy%20me%20a%20coffee&message=🥨&color=black&logo=buy%20me%20a%20coffee&logoColor=white&labelColor=6f4e37)](https://www.buymeacoffee.com/20205255)
 
+After the new law as of December 1, it currently does not work, and may never work again, for example INGO no longer has prices on their site...
+
 Forked from J-Lindvig, he did a very good job, but sadly not maintained any longer...
 
 Link: https://github.com/J-Lindvig/Fuelprices_DK
